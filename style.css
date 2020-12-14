@@ -1,0 +1,144 @@
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  padding-bottom: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+}
+#nav-bar {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+.navbar {
+  background-image: linear-gradient(to right, #a0c1eb, #305c99);
+  padding: 0 !important;
+}
+.navbar-brand img {
+  height: 70px;
+  padding-left: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.navbar-nav li {
+  padding: 0 10px;
+}
+.navbar-nav li a {
+  color: #fff !important;
+  font-weight: 600;
+  float: right;
+  text-align: left;
+}
+
+/*---------- BANNER SECTION -------------*/
+img {
+  max-width: 100%;
+  height: auto;
+  width: auto;
+}
+
+/*---------- FEATURED PRODUCTS SECTION -------------*/
+.col-3 {
+  flex-basis: 25%;
+  padding: 10px;
+  min-width: 200px;
+  margin-bottom: 20px;
+  transition: transform 0.5s;
+}
+
+.col-3 img {
+  width: 100%;
+}
+
+.small-container {
+  max-width: 1080px;
+  margin: auto;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.title {
+  text-align: center;
+  margin: 50px auto 20px;
+  position: relative;
+  line-height: 60px;
+  color: #555;
+}
+
+.title::after {
+  content: "";
+  background: #ff523b;
+  width: 80px;
+  height: 5px;
+  border-radius: 5px;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+h4 {
+  color: #555;
+  font-weight: normal;
+}
+.col-3 p {
+  font-size: 14px;
+}
+.col-3:hover {
+  transform: translateY(-10px);
+}
+#btnSubmit {
+  float: right;
+}
+
+/*---------- FEATURED BRANDS SECTION -------------*/
+.brands {
+  background: radial-gradient(#fff, #ffd6d6);
+  padding: 15px;
+  margin: 70px auto;
+}
+
+/*---------- FEATURED BRANDS SECTION -------------*/
+.card {
+  margin: 0 10% 60px 10%;
+}
+
+/*---------- FOOTER SECTION -------------*/
+.footer {
+  background: #a0c1eb;
+  color: #8a8a8a;
+  font-size: 14px;
+  padding: 30px 0 20px;
+}
+
+.footer img {
+  height: 70px;
+  padding-left: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.footer-col-1 {
+  flex-basis: 30%;
+}
+
+.footer-col-1 img {
+  flex: 1;
+  text-align: center;
+}
+
+.footer-col-2 {
+  flex: 1;
+  text-align: center;
+}
+
+.footer-col-3 {
+  flex-basis: 180px;
+  margin-bottom: 20px;
+}

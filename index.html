@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Agency Website Template</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://use.fontawesome.com/60d51696c1.js"></script>
+  </head>
+  <body>
+    <section id="nav-bar">
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"
+            ><img src="images/surfshop1_logo.png" alt=""
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#top">HOME</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#products">PRODUCTS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#brands">BRANDS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#repairs">REPAIRS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#footer">CONTACT</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </section>
+
+    <!-- banner section -->
+    <img src="images/bannerimage.jpg" alt="" />
+
+    <!-- Featured Products -->
+    <div class="small-container">
+      <h2 class="title">Featured Products</h2>
+      <div class="row">
+        <div class="col-3">
+          <img src="images/surfboard1.jpg" />
+          <h4>Channel Islands</h4>
+          <p>$689.00</p>
+        </div>
+        <div class="col-3">
+          <img src="images/surfboard2.jpg" />
+          <h4>Bing Surfboards</h4>
+          <p>$1419.00</p>
+        </div>
+        <div class="col-3">
+          <img src="images/surfboard3.jpg" />
+          <h4>...Lost</h4>
+          <p>$750.00</p>
+        </div>
+        <div class="col-3">
+          <img src="images/surfboard4.jpg" />
+          <h4>Lib Tech</h4>
+          <p>$749.00</p>
+        </div>
+        <div class="col-3">
+          <img src="images/fins1.jpg" />
+          <h4>Fins</h4>
+          <p>$120.00</p>
+        </div>
+        <div class="col-3">
+          <img src="images/leash1.jpg" />
+          <h4>Leash</h4>
+          <p>$25.00</p>
+        </div>
+        <div class="col-3">
+          <img src="images/wetsuit1.jpg" />
+          <h4>Wetsuit</h4>
+          <p>$300.00</p>
+        </div>
+        <div class="col-3">
+          <img src="images/wax1.jpg" />
+          <h4>Wax</h4>
+          <p>$3.00</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- OFFERED BRANDS -->
+    <div class="brands">
+      <h2 class="title">Featured Brands</h2>
+      <div class="small-container">
+        <div class="row">
+          <div class="col-3">
+            <img src="images/hurleylogo.png" style="width: 100%" />
+          </div>
+          <div class="col-3">
+            <img src="images/quicksilverlogo.png" style="width: 100%" />
+          </div>
+          <div class="col-3">
+            <img src="images/patagonia.png" style="width: 100%" />
+          </div>
+          <div class="col-3">
+            <img src="images/ripcurllogo.png" style="width: 100%" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- REPAIR REQUEST -->
+    <h2 class="title">Repair Request</h2>
+    <div class="card">
+      <div class="card-body">
+        <div class="mb-3">
+          <label for="nameInput" class="form-label">Name</label>
+          <input
+            type="email"
+            class="form-control"
+            id="nameInput"
+            placeholder=""
+          />
+        </div>
+        <div class="mb-3">
+          <label for="emailInput" class="form-label">Email address</label>
+          <input
+            type="email"
+            class="form-control"
+            id="emailInput"
+            placeholder="name@example.com"
+          />
+        </div>
+        <div class="mb-3">
+          <label for="exampleFormControlTextarea1" class="form-label"
+            >Please describe the surfboard repairs needed below</label
+          >
+          <textarea
+            class="form-control"
+            id="exampleFormControlTextarea1"
+            rows="3"
+          ></textarea>
+        </div>
+        <input
+          id="btnSubmit"
+          class="btn btn-primary"
+          type="submit"
+          value="Submit"
+        />
+      </div>
+    </div>
+    <!-- Footer -->
+    <div class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="footer-col-1">
+            <img src="images/surfshop1_logo.png" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Smooth Scroll -->
+    <script src="smooth-scroll.js"></script>
+    <script>
+      var scroll = new SmoothScroll('a[href*="#"]');
+    </script>
+  </body>
+</html>
